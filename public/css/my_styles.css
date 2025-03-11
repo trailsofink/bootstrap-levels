@@ -1,9 +1,9 @@
 .button {
     padding: 5px 10px;
     border-radius: 5px;
-    box-shadow: 2px -1px 66px 39px rgba(0, 0, 0, 0.33) inset;
+    /* box-shadow: 2px -1px 66px 39px rgba(0, 0, 0, 0.33) inset;
     -webkit-box-shadow: 2px -1px 66px 39px rgba(0, 0, 0, 0.33) inset;
-    -moz-box-shadow: 2px -1px 66px 39px rgba(0, 0, 0, 0.33) inset;
+    -moz-box-shadow: 2px -1px 66px 39px rgba(0, 0, 0, 0.33) inset; */
 }
 .primary-button {
     background-color: blue;
@@ -36,7 +36,7 @@
     border: solid grey 2px;
     color: grey;
 }
-.secondary-unob-button {
+.secondary-unob-button:hover {
     background-color: grey;
     color: white;
 }
