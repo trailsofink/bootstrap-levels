@@ -1,0 +1,13 @@
+.new-button {
+  background-color: blue;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  box-shadow: 2px -1px 66px 39px rgba(0, 0, 0, 0.33) inset; -webkit-box-shadow: 2px -1px 66px 39px rgba(0, 0, 0, 0.33) inset; -moz-box-shadow: 2px -1px 66px 39px rgba(0, 0, 0, 0.33) inset;
+}
+.new-button:hover {
+  background-color: darkblue;
+}
+.new-button:active {
+  background-color: blue;
+}
