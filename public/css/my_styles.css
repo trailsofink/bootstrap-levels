@@ -1,13 +1,50 @@
-.new-button {
-  background-color: blue;
-  color: white;
-  padding: 5px 10px;
-  border-radius: 5px;
-  box-shadow: 2px -1px 66px 39px rgba(0, 0, 0, 0.33) inset; -webkit-box-shadow: 2px -1px 66px 39px rgba(0, 0, 0, 0.33) inset; -moz-box-shadow: 2px -1px 66px 39px rgba(0, 0, 0, 0.33) inset;
+.button {
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-shadow: 2px -1px 66px 39px rgba(0, 0, 0, 0.33) inset;
+    -webkit-box-shadow: 2px -1px 66px 39px rgba(0, 0, 0, 0.33) inset;
+    -moz-box-shadow: 2px -1px 66px 39px rgba(0, 0, 0, 0.33) inset;
 }
-.new-button:hover {
-  background-color: darkblue;
+.primary-button {
+    background-color: blue;
+    color: white;
 }
-.new-button:active {
-  background-color: blue;
+.primary-button:hover {
+    background-color: darkblue;
+}
+.primary-button:active {
+    background-color: blue;
+}
+
+.secondary-button {
+    background-color: grey;
+    color: white;
+}
+.success-button {
+    background-color: green;
+    color: white;
+}
+.primary-unob-button {
+    border: solid blue 2px;
+    color: blue;
+}
+.primary-unob-button:hover {
+    background-color: blue;
+    color: white;
+}
+.secondary-unob-button {
+    border: solid grey 2px;
+    color: grey;
+}
+.secondary-unob-button {
+    background-color: grey;
+    color: white;
+}
+.success-unob-button {
+    border: solid green 2px;
+    color: green;
+}
+.success-unob-button:hover {
+    background-color: green;
+    color: white;
 }
